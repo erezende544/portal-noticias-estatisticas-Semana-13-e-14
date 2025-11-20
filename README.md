@@ -252,3 +252,11 @@ A aplicação agora inclui uma página de estatísticas com:
     "novembro/2025": 3
   }
 }
+
+## 📸 Screenshots
+
+*Página de estatísticas com gráficos*
+![Estatísticas](public/assets/images/print-estatisticas-01.png)
+
+*Estatísticas com dados atualizados após CRUD*
+![Estatísticas Atualizadas](public/assets/images/print-estatisticas-02.png)
