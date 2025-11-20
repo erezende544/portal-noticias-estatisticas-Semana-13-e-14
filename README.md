@@ -1,4 +1,4 @@
-# Portal de Notícias - CRUD Completo com JSON Server
+i# Portal de Notícias - CRUD Completo com JSON Server
 
 ## 📋 Sobre o Projeto
 
@@ -216,3 +216,39 @@ Eduardo Machado
 📅 2025/2 - Semipresencial
 🏫 Disciplina: Desenvolvimento de Interfaces Web
 
+## 📊 Funcionalidade de Apresentação Dinâmica - v2.0
+
+### Gráficos e Estatísticas Implementados
+
+A aplicação agora inclui uma página de estatísticas com:
+
+1. **Gráfico de Pizza**: Distribuição de notícias por categoria
+2. **Gráfico de Barras**: Notícias publicadas por mês
+3. **Cards Resumo**: Total de notícias, destaques, categorias e autores
+
+### Tecnologias Utilizadas
+- **Chart.js**: Para criação dos gráficos interativos
+- **API Fetch**: Para consumo dos dados do JSON Server
+- **Bootstrap**: Para layout responsivo
+
+### Prints da Funcionalidade
+
+*Página de estatísticas com gráficos*
+![Estatísticas - Gráficos](./public/assets/images/print-estatisticas-01.png)
+
+*Estatísticas com dados atualizados*
+![Estatísticas - Dados](./public/assets/images/print-estatisticas-02.png)
+
+### Como Testar
+1. Acesse a página "Estatísticas" no menu de navegação
+2. Os gráficos serão carregados automaticamente com dados do JSON Server
+3. Adicione novas notícias para ver as estatísticas atualizarem em tempo real
+
+### Estrutura dos Dados para Gráficos
+```json
+{
+  "categorias": ["Tecnologia", "Cultura", "Cidades"],
+  "distribuicao_mensal": {
+    "novembro/2025": 3
+  }
+}
